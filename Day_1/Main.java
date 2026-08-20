@@ -1,5 +1,9 @@
 /**
  * Prefix sum
+ * To quickly find the sum of any section of an array. 
+ * It turns a slow O(N) loop into a fast O(1) look-up. 
+ * You do this by making a new list where each spot holds the total sum from the start up to that index.
+ * 
  * arr = [1, 2, 3, 4, 5, 6]
  * prefixSummArr = [1, 3, 6, 10, 15, 21]
  * 

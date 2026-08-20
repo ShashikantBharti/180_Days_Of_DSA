@@ -2,6 +2,10 @@
  * Prefix sum
  * arr = [1, 2, 3, 4, 5, 6]
  * prefixSummArr = [1, 3, 6, 10, 15, 21]
+ * 
+ * sum of range [0, 3] = prefixSumArr[3] = 10
+ * sum of range [3, 5] = prefixSumArr[5] - prefixSumArr[3-1] = 21 - 6 = 15
+ * sum of range [1, 4] = prefixSumArr[4] - prefixSumArr[1-1] = 15 - 1 = 14
  **/
 import java.util.*;
 

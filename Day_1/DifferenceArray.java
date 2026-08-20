@@ -1,5 +1,9 @@
 /**
  * DifferenceArray
+ * A difference array is used to perform multiple range update queries in O(1) constant time per operation 
+ * instead of looping through the entire range in O(N) linear time, 
+ * reducing total time complexity from O(Q X N) to O(Q + N)
+ * 
  * N = 10
  * arr = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
  * Q = [l, r, x]
